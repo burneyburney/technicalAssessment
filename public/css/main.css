@@ -59,6 +59,7 @@ footer {
     background-color: #ffffff;
 }
 
+
 .remove-option {
     display: none;
 }
@@ -76,7 +77,7 @@ form > select {
 }
 
 .homepage-checkbox{
-margin: auto;
+    color: #ffffff;
 }
 
 .checkbox-text{
