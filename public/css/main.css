@@ -2,53 +2,80 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-body{
+html {
+    background: url(../img/recycleBackground.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+body {
     font-style: lato;
     font-family: 'PT Sans', 'Lato';
 }
 
-h1{
+h1 {
     font-size: 30pt;
 }
 
-.homepage-logo{
+.homepage-logo {
     font-size: 18pt;
     background: #ffffff;
     width: 112px;
     height: 50px;
 }
 
-.links{
+.links {
     font-size: 14pt;
-
 }
 
-.links > .href{
+.links> .href {
     text-decoration: none;
     margin-left: 22px;
 }
 
 .hero-text {
+    text-align: center;
     /*display: inline;*/
     font-size: 30pt;
 }
 
-.hero-text > span {
+.hero-text> span {
     display: block;
 }
 
-/*FOOTER contents*/
- footer {
-     position: fixed;
-     right: 0;
-     bottom: 0;
-     left: 0;
-     padding: 1rem;
-     background-color: #efefef;
-     text-align: center;
-     background-color: #ffffff;
- }
 
-.remove-option{
+/*FOOTER contents*/
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.remove-option {
     display: none;
+}
+
+.homepage-email-address{
+    width: 261px;
+    height: 51px;
+    border-radius: 5px;
+}
+
+form > select {
+    width: 200px;
+    height: 51px;
+    border-radius: 5px;
+}
+
+.homepage-checkbox{
+margin-right: 22px;
+}
+
+.checkbox-text{
+    /*margin-left: 22px;*/
 }
