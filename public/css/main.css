@@ -114,11 +114,15 @@ input[type="email"].homepage-email-address::-webkit-input-placeholder {
 
 .homepage-form > select {
     width: 261px;
-    height: 51px;
+    height: 60px;
     border-radius: 5px;
     border: solid 2px;
 }
 
 .form-submit{
-    display: block;
+    width: 261px;
+    height: 51px;
+    border-radius: 5px;
+    border: solid white 2px;
+    background-color: #ffffff;
 }
