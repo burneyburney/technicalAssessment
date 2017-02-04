@@ -1,5 +1,4 @@
-/*Myraid Pro substitute*/
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');/*Myraid Pro substitute*/
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 html {
@@ -8,8 +7,11 @@ html {
 }
 
 body {
-    font-style: lato;
     font-family: 'PT Sans', 'Lato';
+}
+
+.navbar{
+    padding-top: 5px;
 }
 
 h1 {
@@ -21,6 +23,8 @@ h1 {
     background: #ffffff;
     width: 112px;
     height: 50px;
+    margin-left: 10px;
+    text-align: center;
 }
 
 .links {
@@ -29,8 +33,10 @@ h1 {
 }
 
 .links > .href {
+    font-size: 14pt;
     text-decoration: none;
     margin-left: 22px;
+
 }
 
 .hero-text {
@@ -68,6 +74,7 @@ footer {
     width: 261px;
     height: 51px;
     border-radius: 5px;
+    border: solid 2px;
 }
 
 form > select {
@@ -103,4 +110,15 @@ select
 input[type="email"].homepage-email-address::-webkit-input-placeholder {
    color: #4d7abc;
 
+}
+
+.homepage-form > select {
+    width: 261px;
+    height: 51px;
+    border-radius: 5px;
+    border: solid 2px;
+}
+
+.form-submit{
+    display: block;
 }
