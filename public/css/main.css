@@ -1,0 +1,155 @@
+/*FONT*/
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background-image: url("../images/recycleBackground.png");
+    background-size: cover;
+}
+
+/*CENTER web page contents*/
+#page-wrap {
+     width: 800px;
+     margin: 0 auto;
+
+}
+
+/*NAV bar contents*/
+.navbar > .homepage-logo{
+    float: left;
+    background-color: #f1f1f1;
+    color: #3e7bb8;
+    margin-left: 100px;
+    margin-top: 1%;
+    height: 50px;
+    width: 115px;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+nav > .navbar > .links{
+    text-decoration: none;
+    margin-right: -200px;
+    float: right;
+}
+
+/*FOOTER contents*/
+footer {
+    display: block !important;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+/*REMOVES selection from dropdown menu*/
+.remove-option{
+    display: none;
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2.45em;
+}
+
+.homepage-checkbox{
+    font-size: 16pt;
+}
+
+.homepage-leaderboard > .base-text {
+    font-size: 16pt;
+    display: block;
+}
+
+.line{
+    height: 4px;
+    width: 1px;
+}
+
+.ten > h1 > span {
+    display: block;
+}
+
+input[type="email"],
+select
+{
+    background-color: #004b8e;
+    border-color: #004b8e;
+    color: #4d7abc;
+}
+
+input[type="email"].homepage-email-address::-webkit-input-placeholder {
+  color: #4d7abc;
+
+}
+
+input[type="checkbox"] > .homepage-checkbox{
+    display: block;
+    color: #ffffff;
+}
+
+.homepage-statistics{
+      position: relative;
+      width: 100%;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 20px;
+      box-sizing: border-box;
+}
+
+.homepage-information{
+    float: left;
+    clear: right;
+}
+.homepage-leaderboard{
+    clear: left;
+}
+
+.leaderboard-pledges{
+    display: inline;
+}
+.leaderboard-district{
+    display: inline;
+}
+
+.form-submit{
+    background-color: #ffffff;
+    color: #115eaa;
+    height: 40px;
+    width: 30%;
+    border-radius: 3px;
+    border-color: #ffffff;
+}
+
+.increasing-number{
+    color: #5affa8;
+    font-size: 150pt;
+}
+
+.display-inline{
+    display: block;
+}
+
+.leaderboard-district{
+    font-size: 16pt;
+}
+
+.leaderboard-pledges{
+    font-size: 16pt;
+}
+
+.animated-bar-graph{
+    display: inline;
+}
+
+.district-two{
+    width;
+}
