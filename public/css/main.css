@@ -25,6 +25,11 @@ h1 {
     height: 50px;
     margin-left: 10px;
     text-align: center;
+    display: table;
+}
+.homepage-logo > span {
+    vertical-align:middle;
+    display: table-cell;
 }
 
 .links {
@@ -125,4 +130,13 @@ input[type="email"].homepage-email-address::-webkit-input-placeholder {
     border-radius: 5px;
     border: solid white 2px;
     background-color: #ffffff;
+}
+
+.homepage-checkbox{
+    margin-top: 22px;
+
+}
+
+.checkbox-text{
+    margin-left: 40px;
 }
