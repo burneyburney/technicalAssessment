@@ -25,9 +25,10 @@ h1 {
 
 .links {
     font-size: 14pt;
+    /*display: ;*/
 }
 
-.links> .href {
+.links > .href {
     text-decoration: none;
     margin-left: 22px;
 }
@@ -36,10 +37,12 @@ h1 {
     text-align: center;
     /*display: inline;*/
     font-size: 30pt;
+    color: #ffffff;
 }
 
 .hero-text> span {
     display: block;
+    color: inherit;
 }
 
 
@@ -73,9 +76,30 @@ form > select {
 }
 
 .homepage-checkbox{
-margin-right: 22px;
+margin: auto;
 }
 
 .checkbox-text{
     /*margin-left: 22px;*/
+}
+
+.homepage-form{
+    text-align: center;
+}
+
+.align-center{
+    text-align: center;
+}
+
+input[type="email"],
+select
+{
+    background-color: #004b8e;
+    border-color: #004b8e;
+    color: #4d7abc;
+ }
+
+input[type="email"].homepage-email-address::-webkit-input-placeholder {
+   color: #4d7abc;
+
 }
