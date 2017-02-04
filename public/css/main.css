@@ -13,6 +13,9 @@ h1{
 
 .homepage-logo{
     font-size: 18pt;
+    background: #ffffff;
+    width: 112px;
+    height: 50px;
 }
 
 .links{
