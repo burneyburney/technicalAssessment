@@ -29,12 +29,12 @@ h1{
 }
 
 .hero-text {
-    /*display: block;*/
+    /*display: inline;*/
     font-size: 30pt;
 }
 
 .hero-text > span {
-    /*display: block;*/
+    display: block;
 }
 
 /*FOOTER contents*/
@@ -48,3 +48,7 @@ h1{
      text-align: center;
      background-color: #ffffff;
  }
+
+.remove-option{
+    display: none;
+}
