@@ -53,7 +53,14 @@ h1 {
 }
 
 .hero-text > span {
+    padding: 20px;
+    color: #4d7abc;
+    border-radius: 100%;
+
     float: right;
+    background-color: #ffffff;
+    font-size: 0.875em;
+
 }
 
 
@@ -90,10 +97,6 @@ form > select {
     width: 255px;
     height: 51px;
     border-radius: 5px;
-}
-
-.homepage-checkbox{
-    color: #ffffff;
 }
 
 .homepage-form{
@@ -133,16 +136,51 @@ input[type="email"].homepage-email-address::-webkit-input-placeholder {
     background-color: #ffffff;
 }
 
+input[type=checkbox] {
+  display: none;
+}
+input[type=checkbox]:checked
+ {
+     background: #0080FF;
+
+     display:inline-block;
+     padding: 0 0 0 0px;
+ }
 .homepage-checkbox{
     margin-top: 22px;
-
+    color: #ffffff;
 }
 
 .checkbox-text{
     margin-left: 40px;
+    color: #ffffff;
 }
 
 .statistics-wrapper{
     text-align: center;
 
+}
+
+.homepage-leaderboard{
+    text-transform: uppercase;
+}
+
+.leaderboard{
+    list-style: none;
+}
+
+.district-wrapper{
+    display: block;
+    float: left;
+    clear: left;
+
+}
+
+.district-wrapper > .district {
+    background-color: blue;
+}
+li > .district-wrapper > span > .bar1 {
+    height: 10px;
+    width: 22px;
+    background-color: red;
 }
