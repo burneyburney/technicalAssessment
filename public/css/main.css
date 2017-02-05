@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 html {
-    background: url(../img/recycleBackground.png) no-repeat center center fixed;
+    background: url(../img/recycleBackground.png) no-repeat fixed;
     background-size: cover;
 }
 
@@ -27,6 +27,7 @@ h1 {
     text-align: center;
     display: table;
 }
+
 .homepage-logo > span {
     vertical-align:middle;
     display: table-cell;
@@ -34,7 +35,6 @@ h1 {
 
 .links {
     font-size: 14pt;
-    /*display: ;*/
 }
 
 .links > .href {
@@ -58,7 +58,6 @@ h1 {
 
 
 /*FOOTER contents*/
-
 footer {
     position: fixed;
     right: 0;
