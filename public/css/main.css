@@ -58,8 +58,8 @@ h1 {
 
 
 /*FOOTER contents*/
-.footer {
-    position: relative;
+footer {
+    position: fixed;
     right: 0;
     bottom: 0;
     left: 0;
@@ -94,10 +94,6 @@ form > select {
 
 .homepage-checkbox{
     color: #ffffff;
-}
-
-.checkbox-text{
-    /*margin-left: 22px;*/
 }
 
 .homepage-form{
@@ -144,4 +140,9 @@ input[type="email"].homepage-email-address::-webkit-input-placeholder {
 
 .checkbox-text{
     margin-left: 40px;
+}
+
+.statistics-wrapper{
+    text-align: center;
+    
 }
