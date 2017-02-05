@@ -58,8 +58,8 @@ h1 {
 
 
 /*FOOTER contents*/
-footer {
-    position: fixed;
+.footer {
+    position: relative;
     right: 0;
     bottom: 0;
     left: 0;
@@ -67,6 +67,11 @@ footer {
     background-color: #efefef;
     text-align: center;
     background-color: #ffffff;
+    margin-top: 20px;
+    display: block;
+    margin-bottom: ;
+
+
 }
 
 
@@ -140,12 +145,3 @@ input[type="email"].homepage-email-address::-webkit-input-placeholder {
 .checkbox-text{
     margin-left: 40px;
 }
-
-
-
-
-    @media (min-width: 400px) {
-      .container {
-        width: 85%;
-        padding: 0; }
-    }
