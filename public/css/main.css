@@ -8,6 +8,7 @@ html {
 
 body {
     font-family: 'PT Sans', 'Lato';
+
 }
 
 .navbar{
@@ -19,7 +20,7 @@ h1 {
 }
 
 .homepage-logo {
-    font-size: 18pt;
+    font-size: 1.125em;
     background: #ffffff;
     width: 112px;
     height: 50px;
@@ -34,11 +35,11 @@ h1 {
 }
 
 .links {
-    font-size: 14pt;
+    font-size: 0.875em;
 }
 
 .links > .href {
-    font-size: 14pt;
+    font-size: 0.875em;
     text-decoration: none;
     margin-left: 22px;
 
@@ -47,13 +48,12 @@ h1 {
 .hero-text {
     text-align: center;
     margin-top: -20px;
-    font-size: 30pt;
+    font-size: 1.875em;
     color: #ffffff;
 }
 
-.hero-text> span {
-    display: block;
-    color: inherit;
+.hero-text > span {
+    float: right;
 }
 
 
@@ -144,5 +144,5 @@ input[type="email"].homepage-email-address::-webkit-input-placeholder {
 
 .statistics-wrapper{
     text-align: center;
-    
+
 }
