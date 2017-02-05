@@ -1,6 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=PT+Sans');/*Myraid Pro substitute*/
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
+/*Myraid Pro substitute*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
 html {
     background: url(../img/recycleBackground.png) no-repeat fixed;
     background-size: cover;
@@ -8,10 +10,9 @@ html {
 
 body {
     font-family: 'PT Sans', 'Lato';
-
 }
 
-.navbar{
+.navbar {
     padding-top: 5px;
 }
 
@@ -29,8 +30,8 @@ h1 {
     display: table;
 }
 
-.homepage-logo > span {
-    vertical-align:middle;
+.homepage-logo> span {
+    vertical-align: middle;
     display: table-cell;
 }
 
@@ -38,11 +39,10 @@ h1 {
     font-size: 0.875em;
 }
 
-.links > .href {
+.links> .href {
     font-size: 0.875em;
     text-decoration: none;
     margin-left: 22px;
-
 }
 
 .hero-text {
@@ -52,19 +52,18 @@ h1 {
     color: #ffffff;
 }
 
-.hero-text > span {
+.hero-text> span {
     padding: 20px;
     color: #4d7abc;
     border-radius: 100%;
-
     float: right;
     background-color: #ffffff;
     font-size: 0.875em;
-
 }
 
 
 /*FOOTER contents*/
+
 footer {
     position: fixed;
     right: 0;
@@ -77,58 +76,52 @@ footer {
     margin-top: 20px;
     display: block;
     margin-bottom: ;
-
-
 }
-
 
 .remove-option {
     display: none;
 }
 
-.homepage-email-address{
+.homepage-email-address {
     width: 255px;
     height: 51px;
     border-radius: 5px;
     border: solid 2px;
 }
 
-form > select {
+form> select {
     width: 255px;
     height: 51px;
     border-radius: 5px;
 }
 
-.homepage-form{
+.homepage-form {
     text-align: center;
     margin: 5px;
 }
 
-.align-center{
+.align-center {
     text-align: center;
 }
 
-input[type="email"],
-select
-{
+input[type="email"], select {
     background-color: #004b8e;
     border-color: #004b8e;
     color: #4d7abc;
- }
-
-input[type="email"].homepage-email-address::-webkit-input-placeholder {
-   color: #4d7abc;
-
 }
 
-.homepage-form > select {
+input[type="email"].homepage-email-address::-webkit-input-placeholder {
+    color: #4d7abc;
+}
+
+.homepage-form> select {
     width: 261px;
     height: 60px;
     border-radius: 5px;
     border: solid 2px;
 }
 
-.form-submit{
+.form-submit {
     width: 261px;
     height: 51px;
     border-radius: 5px;
@@ -137,50 +130,48 @@ input[type="email"].homepage-email-address::-webkit-input-placeholder {
 }
 
 input[type=checkbox] {
-  display: none;
+    display: none;
 }
-input[type=checkbox]:checked
- {
-     background: #0080FF;
 
-     display:inline-block;
-     padding: 0 0 0 0px;
- }
-.homepage-checkbox{
+input[type=checkbox]:checked {
+    background: #0080FF;
+    display: inline-block;
+    padding: 0 0 0 0px;
+}
+
+.homepage-checkbox {
     margin-top: 22px;
     color: #ffffff;
 }
 
-.checkbox-text{
+.checkbox-text {
     margin-left: 40px;
     color: #ffffff;
 }
 
-.statistics-wrapper{
+.statistics-wrapper {
     text-align: center;
-
 }
 
-.homepage-leaderboard{
+.homepage-leaderboard {
     text-transform: uppercase;
 }
 
-.leaderboard{
+.leaderboard {
     list-style: none;
 }
 
-.district-wrapper{
+.district-wrapper {
     display: block;
     float: left;
     clear: left;
-
 }
 
-.district-wrapper > .district {
-    background-color: blue;
+.bar1 {
+    width: 20px;
+    height: 20px;
 }
-li > .district-wrapper > span > .bar1 {
-    height: 10px;
-    width: 22px;
-    background-color: red;
+
+.statistics-wrapper {
+    margin-top: 40px;
 }
