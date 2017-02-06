@@ -117,7 +117,7 @@ input[type="email"].homepage-email-address::-webkit-input-placeholder {
 }
 
 input[type=checkbox] {
-    display: none;
+    /*display: none;*/
 }
 
 input[type=checkbox]:checked {
@@ -127,7 +127,7 @@ input[type=checkbox]:checked {
 }
 
 .homepage-checkbox {
-    margin-top: 22px;
+    /*margin-top: 22px;*/
     color: #ffffff;
 }
 
